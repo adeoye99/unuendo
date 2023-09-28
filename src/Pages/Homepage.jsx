@@ -80,7 +80,7 @@ function Homepage(){
       alt ="unuendo"
       className='h-[100px] w-[100%] md:h-screen'
     />
-      <form onSubmit={Submit} className='bg-gray-100'>
+      <form onSubmit={Submit} className='bg-gray-50'>
        <div className=' w-[80%] md:w-[55%] mx-auto mt-[10%] bg-white shadow p-4 rounded'>
        <h1 className='text-3xl text-[#9370db] '>Register</h1>
        <p className='text-gray-400 mt-[2%]'>Complete the form below to register </p>
@@ -141,15 +141,22 @@ function Homepage(){
          onChange = {handleDetailsChange}
        />
        
-       
+       <div className='relative'>
         <button 
         // type ="submit"
-        className='bg-[#9370db] w-[50%] h-[50px] mt-[10%] text-white rounded  hover:opacity-75 active:ring-1 active:ring-black  active:ring-offset-1 duration-300'
+        className='bg-[#9370db] w-[40%] h-[50px] mt-[10%] text-white rounded  hover:opacity-75 active:ring-1 active:ring-black  active:ring-offset-1 duration-300'
         
         >
         {loading ? <PulseLoader color = "#ffff"/> :"Submit"}
         </button>
-       
+        <button 
+        // type ="submit"
+        className='bg-black w-[40%] h-[50px] mt-[10%] text-white rounded absolute right-0 hover:opacity-75 active:ring-1 active:ring-black  active:ring-offset-1 duration-300'
+        
+        >
+          Download 
+          </button>
+        </div>
        </div>
        
     
