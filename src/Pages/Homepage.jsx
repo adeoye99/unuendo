@@ -80,8 +80,8 @@ function Homepage(){
       alt ="unuendo"
       className='h-[100px] w-[100%] md:h-screen'
     />
-      <form onSubmit={Submit}>
-       <div className=' w-[80%] md:w-[55%] mx-auto pt-[10%]'>
+      <form onSubmit={Submit} className='bg-gray-100'>
+       <div className=' w-[80%] md:w-[55%] mx-auto mt-[10%] bg-white shadow p-4 rounded'>
        <h1 className='text-3xl text-[#9370db] '>Register</h1>
        <p className='text-gray-400 mt-[2%]'>Complete the form below to register </p>
         <Input
