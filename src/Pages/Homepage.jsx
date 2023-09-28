@@ -82,7 +82,7 @@ function Homepage(){
     />
       <form onSubmit={Submit} className='bg-gray-100'>
        <div className=' w-[90%] md:w-[55%] mx-auto mt-[10%] bg-white  p-4 rounded'>
-       <h1 className='text-3xl text-[#9370db] font-semibold'>Register</h1>
+       <h1 className='text-2xl text-[#9370db] font-semibold'>Register</h1>
        <p className='text-gray-400 mt-[2%]'>Complete the form below to register </p>
         <Input
           value = {details.customerName}
