@@ -81,7 +81,7 @@ function Homepage(){
       className='h-[200px] w-[100%] md:h-screen'
     />
       <form onSubmit={Submit} className='bg-gray-100'>
-       <div className=' w-[80%] md:w-[55%] mx-auto mt-[10%] bg-white  p-4 rounded'>
+       <div className=' w-[90%] md:w-[55%] mx-auto mt-[10%] bg-white  p-4 rounded'>
        <h1 className='text-3xl text-[#9370db] font-semibold'>Register</h1>
        <p className='text-gray-400 mt-[2%]'>Complete the form below to register </p>
         <Input
@@ -141,21 +141,21 @@ function Homepage(){
          onChange = {handleDetailsChange}
        />
        
-       <div className='grid grid-cols-2 relative'>
+       <div className='grid grid-cols-1 md:grid-cols-2 relative'>
         <button 
         // type ="submit"
-        className='bg-[#9370db] w-[80%]  h-[50px] mt-[10%] text-white rounded  hover:opacity-75 active:ring-1 active:ring-black  active:ring-offset-1 duration-300'
+        className='bg-[#9370db] w-[100%] md:w-[80%]  h-[50px] mt-[10%] text-white rounded  hover:opacity-75 active:ring-1 active:ring-black  active:ring-offset-1 duration-300'
         
         >
         {loading ? <PulseLoader color = "#ffff"/> :"Submit"}
         </button>
-        <button 
+       {/* <button 
         // type ="submit"
-        className='bg-black h-[50px] w-[80%] mt-[10%] text-white rounded  hover:opacity-75 active:ring-1 active:ring-black  active:ring-offset-1 duration-300'
+        className='bg-black h-[50px] w-[100%] md:w-[80%] mt-[10%] text-white rounded  hover:opacity-75 active:ring-1 active:ring-black  active:ring-offset-1 duration-300'
         
         >
           Download 
-          </button>
+  </button>*/}
         </div>
        </div>
        
