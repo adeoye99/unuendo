@@ -74,11 +74,11 @@ function Homepage(){
     }
   }
   return (
-    <div className='grid grid-cols-1 md:grid-cols-2 h-screen border border-red-100  mx-auto'>
+    <div className='grid grid-cols-1 md:grid-cols-2 h-screen border bg-gray-100 mx-auto'>
     <img
       src= {unuendo} 
       alt ="unuendo"
-      className='h-[200px] w-[100%] md:h-screen'
+      className='h-[200px] w-[90%] mx-auto md:h-screen'
     />
       <form onSubmit={Submit} className='bg-gray-100'>
        <div className=' w-[90%] md:w-[55%] mx-auto mt-[10%] bg-white  p-4 rounded'>
